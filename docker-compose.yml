@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  placeholder:
+    image: busybox
+    command: ['sh', '-c', 'echo "placeholder service"']
